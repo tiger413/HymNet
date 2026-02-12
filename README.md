@@ -48,9 +48,11 @@ pip install -e .
 
 ---
 
-## Preparation
+## HymDrone Quadrotor UAV Dataset
 
-### 1) Download experiment folder (pretrained weights)
+### Introduction
+
+HymDrone consists of 59,138 images across 55 sequences, covering 9 distinct scene types, 5 diverse weather conditions, and illumination variations ranging from dawn to dusk. All images are captured in high-definition resolution of 1920×1080 pixels, with precise bounding box annotations provided for each UAV target in every image.
 
 Download the `experiment` folder from Google Drive and place it in the repository root directory:
 
