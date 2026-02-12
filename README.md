@@ -28,13 +28,22 @@ This repository provides the official implementation of **HymNet** for small tar
 ---
 
 ## Environment Setup
-
-### 1) Install dependencies
 ```bash
-git clone https://github.com/Friskknight/ORCANet-SEUD.git
-cd ORCANet-SEUD
-pip install -r requirement.txt
-python setup.py develop
+# 1. Clone the repository
+git clone https://github.com/tiger413/HymNet.git
+cd HymNet
+
+# 2. Create a virtual environment
+conda create -n hymnet python=3.9
+
+# 3. Activate the virtual environment
+conda activate hymnet
+
+# 4. Install dependencies
+pip install -r requirements.txt
+
+# 5. Install the project in editable/development mode
+pip install -e .
 ```
 
 ---
