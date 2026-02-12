@@ -1,23 +1,23 @@
-# All-in-One Video Restoration under Smoothly Evolving Unknown Weather Degradations
-**Authors:** Wenrui Li, Hongtao Chen, Yao Xiao, Wangmeng Zuo (Senior Member, IEEE), Jiantao Zhou (Senior Member, IEEE), Yonghong Tian (Fellow, IEEE), Xiaopeng Fan (Senior Member, IEEE)
+# HymNet: A Hybrid Multi-Granularity Perception Network for Small Target Detection
+**Authors:** Dongjie Zhou, Chang Liu, Jiajun Zhu, Wenrui Li (Member, IEEE), Xiaopeng Fan (Senior Member, IEEE)
 
 [![arXiv](https://img.shields.io/badge/arXiv-2601.00533-b31b1b.svg)](https://arxiv.org/abs/2601.00533)
 
 ---
 
-- [2026/01] ORCANet training and inference code is released.
-- [2026/01] The paper is available on [arXiv](https://arxiv.org/abs/2601.00533).
-- Synthetic SEUD data generation code and dataset are under preparation.
+- [2026/02] HymNet training and inference code is released.
+- [2026/02] The paper is available on [arXiv](https://arxiv.org/abs/2601.00533).
+- [2026/01] The HymDrone dataset is released.
 
 ---
 
 ## Overview
-This repository provides the official implementation of **ORCANet** for all-in-one video restoration under smoothly evolving and unknown weather degradations (SEUD). ORCANet integrates coarse intensity–aware dehazing and a temporal prompt design for stable restoration under evolving degradation types and intensities.
+This repository provides the official implementation of **HymNet** for small target detection. HymNet is a human visual system-inspired framework that emulates retinal resource allocation (via MGFM), contour sharpening (via DMEM), and contextual integration (via GPCM) to achieve robust cross-modal and cross-viewpoint detection.
 <p align="center">
   <img src="assets/mainflowcrop.jpg" width="100%">
 </p>
 
-**Figure:** Overview of the ORCANet.
+**Figure:** Overview of the HymNet.
 
 ---
 
