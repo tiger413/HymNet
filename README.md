@@ -14,17 +14,19 @@
 ## Overview
 This repository provides the official implementation of **HymNet** for small target detection. HymNet is a human visual system-inspired framework that emulates retinal resource allocation (via MGFM), contour sharpening (via DMEM), and contextual integration (via GPCM) to achieve robust cross-modal and cross-viewpoint detection.
 
-<p align="center">
-  <span>
-    <img src="assets/HymNet.png" height="400"><br>
-    <b>(a)</b> HymNet architecture
-  </span>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <span>
-    <img src="assets/HVS_HymNet.png" height="400"><br>
-    <b>(b)</b> HVS-guided HymNet
-  </span>
-</p>
+<div align="center">
+  
+  <figure style="display: inline-block; margin: 0 20px; vertical-align: top;">
+    <img src="assets/HymNet.png" height="400">
+    <figcaption><b>(a)</b> HymNet architecture</figcaption>
+  </figure>
+  
+  <figure style="display: inline-block; margin: 0 20px; vertical-align: top;">
+    <img src="assets/HVS_HymNet.png" height="400">
+    <figcaption><b>(b)</b> HVS-guided HymNet</figcaption>
+  </figure>
+  
+</div>
 
 **Figure:** Overview of the HymNet.
 
