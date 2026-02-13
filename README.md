@@ -16,15 +16,15 @@ This repository provides the official implementation of **HymNet** for small tar
 
 <div align="center" style="display: flex; justify-content: center; gap: 40px;">
 
-  <figure>
+  <div align="center">
     <img src="assets/HymNet.png" height="400">
-    <figcaption align="center"><b>图 1:</b> HymNet 网络架构</figcaption>
-  </figure>
+    <p><b>图 1:</b> HymNet 网络架构</p>
+  </div>
 
-  <figure>
+  <div align="center">
     <img src="assets/HVS_HymNet.png" height="400">
-    <figcaption align="center"><b>图 2:</b> HVS 引导的 HymNet 结构</figcaption>
-  </figure>
+    <p><b>图 2:</b> HVS 引导的 HymNet 结构</p>
+  </div>
 
 </div>
 
