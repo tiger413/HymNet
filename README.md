@@ -19,7 +19,7 @@ This repository provides the official implementation of **HymNet** for small tar
     <img src="assets/HymNet.png" height="500"><br>
     <b>图1: HymNet 网络结构</b>
   </span>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;
   <span style="display: inline-block; vertical-align: middle;">
     <img src="assets/HVS_HymNet.png" height="350"><br>
     <b>图2: HVS_HymNet 改进版</b>
