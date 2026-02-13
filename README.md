@@ -16,29 +16,15 @@ This repository provides the official implementation of **HymNet** for small tar
 
 <div align="center">
   
-  <figure style="display: inline-block; margin: 0 20px; vertical-align: top; text-align: center;">
-    <img src="assets/HymNet.png" height="400" style="display: block;">
-    <figcaption style="margin-top: 10px;"><b>(a)</b> HymNet architecture</figcaption>
-  </figure>
-  
-  <figure style="display: inline-block; margin: 0 20px; vertical-align: top; text-align: center;">
-    <img src="assets/HVS_HymNet.png" height="400" style="display: block;">
-    <figcaption style="margin-top: 10px;"><b>(b)</b> HVS-guided HymNet</figcaption>
-  </figure>
-  
-</div>
-
-<div align="center">
-  
-  <figure style="display: inline-block; margin: 0 20px; vertical-align: top;">
+  <div style="display: inline-block; margin: 0 20px; vertical-align: top; text-align: center;">
     <img src="assets/HymNet.png" height="400">
-    <figcaption><b>(a)</b> HymNet architecture</figcaption>
-  </figure>
+    <div style="margin-top: 10px;"><b>(a)</b> HymNet architecture</div>
+  </div>
   
-  <figure style="display: inline-block; margin: 0 20px; vertical-align: top;">
+  <div style="display: inline-block; margin: 0 20px; vertical-align: top; text-align: center;">
     <img src="assets/HVS_HymNet.png" height="400">
-    <figcaption><b>(b)</b> HVS-guided HymNet</figcaption>
-  </figure>
+    <div style="margin-top: 10px;"><b>(b)</b> HVS-guided HymNet</div>
+  </div>
   
 </div>
 
