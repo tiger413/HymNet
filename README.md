@@ -61,7 +61,9 @@ pip install -e .
 
 ### Introduction
 
-HymDrone consists of 59,138 images across 55 sequences, covering 9 distinct scene types, 5 diverse weather conditions, and illumination variations ranging from dawn to dusk. All images are captured in high-definition resolution of 1920×1080 pixels, with precise bounding box annotations provided for each UAV target in every image.
+HymDrone consists of 59,138 images across 55 sequences, covering 9 distinct scene types (park, nighttime, hilly areas with trees, terrain with trees, beach, jungle, mountains, highways, and sunset), 5 diverse weather conditions (sunny (a), fog (b), haze (c), falling leaves (d), and heavy snow/rain (e)), and illumination variations ranging from dawn to dusk. All images are captured in high-definition resolution of 1920×1080 pixels, with precise bounding box annotations provided for each UAV target in every image.
+
+Regarding target scale, statistical analysis in Fig.~\ref{fig:histogram} and Fig.~\ref{fig:scatter} reveals that over 52\% of UAV targets occupy less than 0.5\% of the image area, and most bounding boxes are small in both width and height.
 
 Download the `experiment` folder from Google Drive and place it in the repository root directory:
 
