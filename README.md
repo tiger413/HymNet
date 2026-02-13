@@ -16,6 +16,20 @@ This repository provides the official implementation of **HymNet** for small tar
 
 <div align="center">
   
+  <figure style="display: inline-block; margin: 0 20px; vertical-align: top; text-align: center;">
+    <img src="assets/HymNet.png" height="400" style="display: block;">
+    <figcaption style="margin-top: 10px;"><b>(a)</b> HymNet architecture</figcaption>
+  </figure>
+  
+  <figure style="display: inline-block; margin: 0 20px; vertical-align: top; text-align: center;">
+    <img src="assets/HVS_HymNet.png" height="400" style="display: block;">
+    <figcaption style="margin-top: 10px;"><b>(b)</b> HVS-guided HymNet</figcaption>
+  </figure>
+  
+</div>
+
+<div align="center">
+  
   <figure style="display: inline-block; margin: 0 20px; vertical-align: top;">
     <img src="assets/HymNet.png" height="400">
     <figcaption><b>(a)</b> HymNet architecture</figcaption>
@@ -57,24 +71,67 @@ pip install -e .
 
 ### Introduction
 
-HymDrone consists of 59,138 images across 55 sequences, covering 9 distinct scene types (park, nighttime, hilly areas with trees, terrain with trees, beach, jungle, mountains, highways, and sunset), 5 diverse weather conditions (sunny (a), fog (b), haze (c), falling leaves (d), and heavy snow/rain (e)), and illumination variations ranging from dawn to dusk. All images are captured in high-definition resolution of 1920×1080 pixels, with precise bounding box annotations provided for each UAV target in every image.
+**HymDrone** consists of 59,138 images across 55 sequences, covering 9 distinct scene types (park, nighttime, hilly areas with trees, terrain with trees, beach, jungle, mountains, highways, and sunset), 5 diverse weather conditions (sunny (a), fog (b), haze (c), falling leaves (d), and heavy snow/rain (e)), and illumination variations ranging from dawn to dusk. All images are captured in high-definition resolution of 1920×1080 pixels, with precise bounding box annotations provided for each UAV target in every image.
 
-Regarding target scale, statistical analysis in Fig.~\ref{fig:histogram} and Fig.~\ref{fig:scatter} reveals that over 52\% of UAV targets occupy less than 0.5\% of the image area, and most bounding boxes are small in both width and height.
+Regarding target scale, statistical analysis in Fig.3 and Fig.4 reveals that over 52\% of UAV targets occupy less than 0.5\% of the image area, and most bounding boxes are small in both width and height.
 
-Download the `experiment` folder from Google Drive and place it in the repository root directory:
+### Download
+Download HymDrone dataset from Baidu Drive and place it in the repository root directory:
 
-- Google Drive: https://drive.google.com/drive/folders/1b6IpTLh-SJOuDo8oYSREKRpLY5zhxpiq?usp=sharing
+- Baidu Drive: https://drive.google.com/drive/folders/1b6IpTLh-SJOuDo8oYSREKRpLY5zhxpiq?usp=sharing
 
 After downloading, your directory should look like:
 
 ```
-ORCANet-SEUD/
-  experiment/pretrained_models
+HymNet/
+  Datasets/HymDrone
   basicsr/
   options/
   scripts/
   ...
 ```
+## Training
+
+## Inference (Testing)
+
+Before testing, please check the YAML file:
+
+- `dataroot_gt`
+- `dataroot_lq`
+- `meta_info_file`
+
+You can enable/disable saving outputs via `save_img` in the test YAML.
+
+Run inference:
+
+```
+python basicsr/test.py -opt options/test/test_ORCANet_MOT17t4.yml
+```
+
+------
+
+## Acknowledgements
+
+This project builds upon and is inspired by the following open-source projects and resources:
+
+- BasicSR: https://github.com/XPixelGroup/BasicSR
+- AverNet: https://github.com/XLearning-SCU/2024-NeurIPS-AverNet/tree/main
+- Depth Anything: https://github.com/LiheYoung/Depth-Anything
+- IntoTheFog: https://github.com/nadezola/IntoTheFog_MOT17/tree/master
+
+We thank the authors for their excellent work.
+
+------
+
+## Contact
+
+If you have any questions, please contact ht166chen@163.com
+
+
+
+
+
+
 
 ### 2) Prepare your own dataset (optional)
 
