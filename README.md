@@ -67,40 +67,28 @@ Regarding target scale, statistical analysis reveals that over 52\% of UAV targe
   <img src="assets/scatter.png" width="300">
 </p>  
 
-**Figure**: Histogram of bounding box area ratios relative to image area in HymDrone. catter plot of bounding box width versus height, with
-color indicating area ratio relative to the image.
+**Figure**: Analysis of bounding box statistics in HymDrone: (a) histogram of area ratios (bounding box area / image area); (b) scatter plot of width vs. height, with points colored by area ratio.
 
 ### Download
 Download HymDrone dataset from Baidu Drive and place it in the repository root directory:
 
 - Baidu Drive: https://drive.google.com/drive/folders/1b6IpTLh-SJOuDo8oYSREKRpLY5zhxpiq?usp=sharing
 
-After downloading, your directory should look like:
-
-```
-HymNet/
-  Datasets/HymDrone
-  basicsr/
-  options/
-  scripts/
-  ...
-```
 ## Training
 
+Run training:
+
+```
+python basicsr/train.py
+```
+------
+
 ## Inference (Testing)
-
-Before testing, please check the YAML file:
-
-- `dataroot_gt`
-- `dataroot_lq`
-- `meta_info_file`
-
-You can enable/disable saving outputs via `save_img` in the test YAML.
 
 Run inference:
 
 ```
-python basicsr/test.py -opt options/test/test_ORCANet_MOT17t4.yml
+python basicsr/test.py
 ```
 
 ------
@@ -120,4 +108,4 @@ We thank the authors for their excellent work.
 
 ## Contact
 
-If you have any questions, please contact ht166chen@163.com
+If you have any questions, please contact dongjiezhou@stu.hit.edu.com
