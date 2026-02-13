@@ -17,13 +17,13 @@ This repository provides the official implementation of **HymNet** for small tar
 <table align="center">
   <tr>
     <td align="center">
-      <img src="assets/HymNet.png" height="400"><br>
+      <img src="assets/HymNet.png" height="450"><br>
       <b>Fig. 1:</b> Overview of the HymNet
     </td>
     <td width="40"></td>
     <td align="center">
-      <img src="assets/HVS_HymNet.png" height="400"><br>
-      <b>Fig. 2:</b>Dual-stream functional map between the human visual
+      <img src="assets/HVS_HymNet.png" height="350"><br>
+      <b>Fig. 2:</b> Dual-stream functional map between the human visual
 system (HVS) and HymNet
     </td>
   </tr>
