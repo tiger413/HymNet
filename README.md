@@ -52,9 +52,9 @@ pip install -e .
 **HymDrone** consists of 59,138 images across 55 sequences, covering 9 distinct scene types (park, nighttime, hilly areas with trees, terrain with trees, beach, jungle, mountains, highways, and sunset), 5 diverse weather conditions (sunny (a), fog (b), haze (c), falling leaves (d), and heavy snow/rain (e)), and illumination variations ranging from dawn to dusk. All images are captured in high-definition resolution of 1920×1080 pixels, with precise bounding box annotations provided for each UAV target in every image.
 
 <p align="center">
-  <img src="assets/scenes.png" width="400">
+  <img src="assets/scenes.png" width="300">
   &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
-  <img src="assets/weather.png" width="400">
+  <img src="assets/weather.png" width="300">
 </p>  
 
 **Figure**: Nine different scene types and five different weather conditions of HymDrone.
@@ -62,9 +62,9 @@ pip install -e .
 Regarding target scale, statistical analysis reveals that over 52\% of UAV targets occupy less than 0.5\% of the image area, and most bounding boxes are small in both width and height.
 
 <p align="center">
-  <img src="assets/histogram.png" width="400">
+  <img src="assets/histogram.png" width="300">
   &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
-  <img src="assets/scatter.png" width="400">
+  <img src="assets/scatter.png" width="300">
 </p>  
 
 **Figure**: Histogram of bounding box area ratios relative to image area in HymDrone. catter plot of bounding box width versus height, with
