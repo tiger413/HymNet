@@ -78,6 +78,8 @@ Download HymDrone dataset from Baidu Drive and place it in the repository root d
 
 - Baidu Drive: https://drive.google.com/drive/folders/1b6IpTLh-SJOuDo8oYSREKRpLY5zhxpiq?usp=sharing
 
+---
+
 ## Training
 
 Run training:
@@ -85,7 +87,7 @@ Run training:
 ```
 python src/train.py
 ```
-------
+---
 
 ## Inference (Testing)
 
