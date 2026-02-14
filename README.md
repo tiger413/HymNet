@@ -1,13 +1,10 @@
 # HymNet: A Hybrid Multi-Granularity Perception Network for Small Target Detection
 **Authors:** Dongjie Zhou, Chang Liu, Jiajun Zhu, Wenrui Li (Member, IEEE), Xiaopeng Fan (Senior Member, IEEE)
 
-[![arXiv](https://img.shields.io/badge/arXiv-2601.00533-b31b1b.svg)](https://arxiv.org/abs/2601.00533)
-
 ---
 
 - [2026/02] HymNet training and inference code is released.
-- [2026/02] The paper is available on [arXiv](https://arxiv.org/abs/2601.00533).
-- [2026/01] The HymDrone dataset is released.
+- [2026/01] A preliminary version of the HymDrone dataset is released.
 
 ---
 
