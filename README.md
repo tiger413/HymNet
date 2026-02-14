@@ -83,7 +83,7 @@ Download HymDrone dataset from Baidu Drive and place it in the repository root d
 Run training:
 
 ```
-python basicsr/train.py
+python src/train.py
 ```
 ------
 
@@ -92,7 +92,7 @@ python basicsr/train.py
 Run inference:
 
 ```
-python basicsr/test.py
+python src/test.py
 ```
 
 ------
@@ -101,10 +101,9 @@ python basicsr/test.py
 
 This project builds upon and is inspired by the following open-source projects and resources:
 
-- BasicSR: https://github.com/XPixelGroup/BasicSR
-- AverNet: https://github.com/XLearning-SCU/2024-NeurIPS-AverNet/tree/main
-- Depth Anything: https://github.com/LiheYoung/Depth-Anything
-- IntoTheFog: https://github.com/nadezola/IntoTheFog_MOT17/tree/master
+- Ultralytics: https://github.com/ultralytics/ultralytics
+- LEGNet: https://github.com/AeroVILab-AHU/LEGNet
+- FCM: https://github.com/galaxy-oss/FCM
 
 We thank the authors for their excellent work.
 
