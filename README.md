@@ -46,7 +46,7 @@ pip install -e .
 
 ### Introduction
 
-**HymDrone** comprises 59,138 high-resolution images across 55 sequences, encompassing 9 distinct scene types: park, nighttime, hilly areas with trees, open terrain with sparse trees, beach, jungle, mountains, highways, and sunset — as well as 5 diverse weather conditions: sunny (a), fog (b), haze (c), falling leaves (d), and heavy snow or rain (e). Illumination conditions vary from dawn to dusk. All images are captured in high-definition resolution of 1920×1080 pixels, with precise bounding box annotations provided for each UAV target in every image.
+**HymDrone** comprises 59,138 high-resolution images across 55 sequences, encompassing 9 distinct scene types: park, nighttime, hilly areas with trees, open terrain with sparse trees, beach, jungle, mountains, highways, and sunset — as well as 5 diverse weather conditions: sunny (a), fog (b), haze (c), falling leaves (d), and heavy snow or rain (e). Illumination conditions vary from dawn to dusk. All images have a resolution of 1920×1080 pixels, and precise bounding box annotations are provided for each UAV target.
 
 <p align="center">
   <img src="assets/scenes.png" width="600">
