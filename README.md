@@ -62,9 +62,9 @@ pip install -e .
 Regarding target scale, statistical analysis reveals that over 52\% of UAV targets occupy less than 0.5\% of the image area, and most bounding boxes are small in both width and height.
 
 <p align="center">
-  <img src="assets/histogram.png" width="300">
-  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
-  <img src="assets/scatter.png" width="300">
+  <img src="assets/histogram.png" width="400">
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="assets/scatter.png" width="400">
 </p>  
 
 **Figure**: Analysis of bounding box statistics in HymDrone: (a) histogram of area ratios (bounding box area / image area); (b) scatter plot of width vs. height, with points colored by area ratio.
