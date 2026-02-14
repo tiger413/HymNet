@@ -1,5 +1,5 @@
 # HymNet: A Hybrid Multi-Granularity Perception Network for Small Target Detection
-**Authors:** Dongjie Zhou, Chang Liu, Jiajun Zhu, Wenrui Li (Member, IEEE), Xiaopeng Fan (Senior Member, IEEE)
+**Authors:** Dongjie Zhou, Chang Liu, Jiajun Zhu, Wenrui Li (Member, IEEE), Yong Wang, Xiaopeng Fan (Senior Member, IEEE)
 
 ---
 
