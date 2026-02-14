@@ -65,7 +65,7 @@ With respect to target scale, statistical analysis shows that **more than 52%** 
 <p align="center">
   <img src="assets/histogram.png" width="500">
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="assets/scatter.png" width="400">
+  <img src="assets/scatter.png" width="450">
 </p>  
 
 **Figure**: Analysis of bounding box statistics in HymDrone: (a) histogram of area ratios (bounding box area / image area); (b) scatter plot of width vs. height, with points colored by area ratio.
