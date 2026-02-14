@@ -3,8 +3,8 @@
 
 ---
 
-- [2026/02] HymNet training and inference code is released.
-- [2026/01] A preliminary version of the HymDrone dataset is released.
+- [2026/02] HymNet training and inference code has been released.
+- [2026/01] A preliminary version of the HymDrone dataset has been released.
 
 ---
 
@@ -46,7 +46,7 @@ pip install -e .
 
 ### Introduction
 
-**HymDrone** comprises 59,138 high-definition images across 55 sequences, encompassing 9 distinct scene types — park, nighttime, hilly areas with trees, open terrain with sparse trees, beach, jungle, mountains, highways, and sunset — as well as 5 diverse weather conditions: sunny (a), fog (b), haze (c), falling leaves (d), and heavy snow or rain (e). Illumination conditions vary from dawn to dusk. All images are captured in high-definition resolution of 1920×1080 pixels, with precise bounding box annotations provided for each UAV target in every image.
+**HymDrone** comprises 59,138 high-resolution images across 55 sequences, encompassing 9 distinct scene types: park, nighttime, hilly areas with trees, open terrain with sparse trees, beach, jungle, mountains, highways, and sunset — as well as 5 diverse weather conditions: sunny (a), fog (b), haze (c), falling leaves (d), and heavy snow or rain (e). Illumination conditions vary from dawn to dusk. All images are captured in high-definition resolution of 1920×1080 pixels, with precise bounding box annotations provided for each UAV target in every image.
 
 <p align="center">
   <img src="assets/scenes.png" width="600">
@@ -81,7 +81,7 @@ Download HymDrone dataset from Baidu Drive and place it in the repository root d
 
 Run training:
 
-```
+```bash
 python src/train.py
 ```
 ---
@@ -90,7 +90,7 @@ python src/train.py
 
 Run inference:
 
-```
+```bash
 python src/test.py
 ```
 
@@ -110,4 +110,4 @@ We thank the authors for their excellent work.
 
 ## Contact
 
-If you have any questions, please contact dongjiezhou@stu.hit.edu.com
+If you have any questions, please contact dongjiezhou@stu.hit.edu.cn
