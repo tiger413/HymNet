@@ -76,7 +76,7 @@ Regarding target scale, statistical analysis reveals that over 52\% of UAV targe
 ### Download
 Download HymDrone dataset from Baidu Drive and place it in the repository root directory:
 
-- Baidu Drive: https://drive.google.com/drive/folders/1b6IpTLh-SJOuDo8oYSREKRpLY5zhxpiq?usp=sharing
+- Baidu Netdisk: https://pan.baidu.com/share/init?surl=KPqxiuE94TnWDc3O_-p7jg
 
 ---
 
