@@ -9,7 +9,7 @@
 ---
 
 ## Overview
-This repository provides the official implementation of **HymNet** for small target detection. HymNet is a human visual system (HVS) inspired framework that emulates retinal resource allocation (via MGFM), contour sharpening (via DMEM), and contextual integration (via GPCM) to achieve robust cross-modal and cross-viewpoint detection.
+This repository provides the official implementation of **HymNet**, a human visual system (HVS)-inspired framework for small target detection. HymNet emulates retinal resource allocation (via MGFM), contour sharpening (via DMEM), and contextual integration (via GPCM) to achieve robust cross-modal and cross-viewpoint detection.
 
 <p align="center">
   <img src="assets/HymNet.png" height="500">
@@ -46,7 +46,7 @@ pip install -e .
 
 ### Introduction
 
-**HymDrone** consists of 59,138 images across 55 sequences, covering 9 distinct scene types (park, nighttime, hilly areas with trees, terrain with trees, beach, jungle, mountains, highways, and sunset), 5 diverse weather conditions (sunny (a), fog (b), haze (c), falling leaves (d), and heavy snow/rain (e)), and illumination variations ranging from dawn to dusk. All images are captured in high-definition resolution of 1920×1080 pixels, with precise bounding box annotations provided for each UAV target in every image.
+**HymDrone** comprises 59,138 high-definition images across 55 sequences, encompassing 9 distinct scene types — park, nighttime, hilly areas with trees, open terrain with sparse trees, beach, jungle, mountains, highways, and sunset — as well as 5 diverse weather conditions: sunny (a), fog (b), haze (c), falling leaves (d), and heavy snow or rain (e). Illumination conditions vary from dawn to dusk. All images are captured in high-definition resolution of 1920×1080 pixels, with precise bounding box annotations provided for each UAV target in every image.
 
 <p align="center">
   <img src="assets/scenes.png" width="600">
@@ -60,7 +60,7 @@ pip install -e .
 
 **Figure**: Five different weather conditions of HymDrone.
 
-Regarding target scale, statistical analysis reveals that over 52\% of UAV targets occupy less than 0.5\% of the image area, and most bounding boxes are small in both width and height.
+With respect to target scale, statistical analysis shows that **more than 52%** of UAV targets occupy **less than 0.5%** of the image area, and the majority of bounding boxes are small in both width and height.
 
 <p align="center">
   <img src="assets/histogram.png" width="500">
