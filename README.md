@@ -54,7 +54,7 @@ pip install -e .
 <p align="center">
   <img src="assets/scenes.png" width="500">
   &nbsp;&nbsp; 
-  <img src="assets/weather.png" width="500">
+  <img src="assets/weather.png" width="600">
 </p>  
 
 **Figure**: Nine different scene types and five different weather conditions of HymDrone.
