@@ -15,7 +15,7 @@
 This repository provides the official implementation of **HymNet** for small target detection. HymNet is a human visual system (HVS) inspired framework that emulates retinal resource allocation (via MGFM), contour sharpening (via DMEM), and contextual integration (via GPCM) to achieve robust cross-modal and cross-viewpoint detection.
 
 <p align="center">
-  <img src="assets/HymNet.png" height="470">
+  <img src="assets/HymNet.png" height="500">
   &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
   <img src="assets/HVS_HymNet.png" height="380">
 </p>   
@@ -52,12 +52,16 @@ pip install -e .
 **HymDrone** consists of 59,138 images across 55 sequences, covering 9 distinct scene types (park, nighttime, hilly areas with trees, terrain with trees, beach, jungle, mountains, highways, and sunset), 5 diverse weather conditions (sunny (a), fog (b), haze (c), falling leaves (d), and heavy snow/rain (e)), and illumination variations ranging from dawn to dusk. All images are captured in high-definition resolution of 1920×1080 pixels, with precise bounding box annotations provided for each UAV target in every image.
 
 <p align="center">
-  <img src="assets/scenes.png" width="500">
-  &nbsp;&nbsp; 
+  <img src="assets/scenes.png" width="600">
+</p> 
+
+**Figure**: Nine different scene types of HymDrone.
+
+<p align="center">
   <img src="assets/weather.png" width="600">
 </p>  
 
-**Figure**: Nine different scene types and five different weather conditions of HymDrone.
+**Figure**: Five different weather conditions of HymDrone.
 
 Regarding target scale, statistical analysis reveals that over 52\% of UAV targets occupy less than 0.5\% of the image area, and most bounding boxes are small in both width and height.
 
