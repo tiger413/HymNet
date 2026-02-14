@@ -16,7 +16,7 @@ This repository provides the official implementation of **HymNet** for small tar
 
 <p align="center">
   <img src="assets/HymNet.png" height="500">
-  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="assets/HVS_HymNet.png" height="380">
 </p>   
 
