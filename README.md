@@ -68,10 +68,10 @@ With respect to target scale, statistical analysis shows that **more than 52%** 
   <img src="assets/scatter.png" width="450">
 </p>  
 
-**Figure**: Analysis of bounding box statistics in HymDrone: (a) histogram of area ratios (bounding box area / image area); (b) scatter plot of width vs. height, with points colored by area ratio.
+**Figure**: Analysis of bounding box statistics in HymDrone: histogram of area ratios (bounding box area / image area) and scatter plot of width vs. height, with points colored by area ratio.
 
 ### Download
-Download HymDrone dataset from Baidu Drive and place it in the repository root directory:
+Download HymDrone dataset from Baidu Netdisk and place it in the repository root directory:
 
 - Baidu Netdisk: https://pan.baidu.com/s/19RUSTpwWkdMI4_8NLSjZAQ?pwd=duas
 
